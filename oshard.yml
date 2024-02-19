@@ -4,7 +4,7 @@
   tasks:
     - name: Perform full patching
       package:
-        name: '*'
+        name: httpd
         state: latest
 
   
