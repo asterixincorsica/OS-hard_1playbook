@@ -1,6 +1,6 @@
 ---
 - name: Linux hardening
-  hosts: linux_servers
+  hosts: 192.168.101.21
   gather_facts: yes
 
   tasks:
