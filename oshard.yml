@@ -1,5 +1,6 @@
 ---
-- hosts: 192.168.101.21
+- name: oshard 
+  hosts: 192.168.101.21
   vars:
     allowed_ssh_networks:
       - 192.168.101.0/23
